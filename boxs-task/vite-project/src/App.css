@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  width: 900px;
+  height: 600px;
+  background-color: rgb(131, 233, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(75, 194, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  width: 700px;
+  height: 400px;
+  background-color: rgb(235, 96, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box4 {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(177, 11, 168);
+}
