@@ -38,6 +38,7 @@ export const services = [
 
 export const tours = [
   {
+    id: 1,
     imgSrc: "./images/tour-1.jpeg",
     date: "August 26th, 2020",
     title: "Tibet Adventure",
@@ -47,6 +48,7 @@ export const tours = [
     price: "from $2100",
   },
   {
+    id: 2,
     imgSrc: "./images/tour-2.jpeg",
     date: "October 1th, 2020",
     title: "Best of Java",
@@ -56,6 +58,7 @@ export const tours = [
     price: "from $1400",
   },
   {
+    id: 3,
     imgSrc: "./images/tour-3.jpeg",
     date: "September 15th, 2020",
     title: "Explore Hong Kong",
@@ -65,6 +68,7 @@ export const tours = [
     price: "from $5000",
   },
   {
+    id: 4,
     imgSrc: "./images/tour-4.jpeg",
     date: "December 5th, 2019",
     title: "Kenya Highlights",
