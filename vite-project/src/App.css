@@ -40,3 +40,54 @@
 .read-the-docs {
   color: #888;
 }
+
+button {
+  transition: all .3s ease-in-out;
+  background-color: #111;
+  color: white;
+  border: 2px solid purple;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover{
+    background-color: purple;
+  border: 2px solid #111;
+
+    
+  }
+}
+ul{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: purple;
+}
+
+.grandfather{
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.father{
+  border: 1px solid rgb(255, 174, 0);
+  padding: 20px;
+
+}
+
+.son{
+  border: 1px solid rgb(0, 255, 0);
+  padding: 20px;
+
+}
+
+.grandson{
+  border: 1px solid rgb(255, 0, 234);
+  padding: 20px;
+
+}
+
